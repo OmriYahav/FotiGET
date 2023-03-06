@@ -28,7 +28,7 @@ def get_fortigate_info(fortigate_ip, api_key):
     urllib3.disable_warnings()
 
     # Make a GET requests
-    systemInterface_response = requests.get(url_interface, headers=headers, verify=False)
+    systemInterface_response = requests.get(url_interface, headers=headers,verify=False)
     systemGlobal_response = requests.get(url_global, headers=headers, verify=False)
     monitorVirtualWan_response = requests.get(url_sla_log, headers=headers, verify=False)
     systemDDNS_response = requests.get(url_ddns, headers=headers, verify=False)
