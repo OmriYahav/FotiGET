@@ -5,8 +5,8 @@ import FortiGET
 # Replace with your FortiGate's IP address:port and API key
 # Fortigates = dict(Client1='IP:PORT', Client2='IP:PORT')
 # Apikeys = dict(Client1='API_KEY', Client2='API_KEY')
-Fortigates = dict(Client1='',Client2='')
-Apikeys = dict(Client1='',Client2='')
+Fortigates = dict(Client1='IP:PORT', Client2='IP:PORT')
+Apikeys = dict(Client1='API_KEY', Client2='API_KEY')
 now = datetime.now()
 dt_string = now.strftime("Date : %d/%m/%Y \nTime: %H:%M:%S")
 
