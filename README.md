@@ -1,5 +1,5 @@
 # FotiGET
-
+![This is an image](/img/fortiPython.png)
 This is a Python script that retrieves information from a FortiGate device using its API. 
 The script imports the necessary libraries, sets the API endpoints, and includes the API key in the headers. Then, it defines the URLs to access the API and makes GET requests to retrieve the desired information.
 
